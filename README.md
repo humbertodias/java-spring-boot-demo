@@ -13,13 +13,13 @@ Aplicação Web com Spring e módulos: **Data** e **Security**.
 1. Clone
 
 	```
-	git clone https://github.com/humbertodias/spring-boot-initializr.git
+	git clone https://github.com/humbertodias/java-spring-boot-demo.git
 	```
 
 2. Entre na pasta
 
 	```
-	cd spring-boot-initializr
+	cd java-spring-boot-demo
 	```
 
 3. Execute 
