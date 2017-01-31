@@ -1,20 +1,16 @@
 language: java
-
 sudo: false
 addons:
   apt:
     packages:
-      - oracle-java8-installer
-
+    - oracle-java8-installer
 jdk:
-  - oraclejdk8
-
-
-#script: "mvn package"
-maven-package:
-  script: "mvn install -B"
-
-
+- oraclejdk8
+script: mvn package
 deploy:
+  provider: releases
+  api_key:
+    secure: ZVLvvcknbtaOctFWf8BvklFQGJtBJKbA5jFX5byf5SUyc3wj+AT4Wz4lI7gdrqGIkWwIWglsUu6ANxO6mkiwpHEiRuFKc16WiPIA+lX3Ug47aMOwEbzeuyeFBTixtImVJjQ7E/QN1aXLmzmliXM48WBiFFvIVLpkFabL29XEYaEyg8nfpwbYR/M6llyziccIofe4f9s2dFr5QY0lfbntdq2Iri2u71JsDp96KXobZQup/Ot5AZzo8NdDUTvL9bSEcUKuB/VQ1r4h/tj6jQoznGwX0QOgO5Xt6pUH/kljVM5p56fuOG0z7wL4cKsvr9WouJO13LacWZ/6zfwF5iHApRJA39XLY82aJTiYTtWA7n2mtMrf5IGXhTqdDIARizHoSpXaeQ8vv5yh76JfL+0GX8WaDqDvIKwl28+CpALMsS/nRpC2kca9/HbBBLjc946If6t/UAuAR/oImUspz3nTDy2MGsq+2sLdzdTlWmWyGMu1f1X6wJv1Ih2iUgFTl14gPHj3QXqT1XbTn92zY9QDrDvnhcul0vi2CBiN8CJzBulebX5ZOok4CjVPpY0pkbqj4lSIeFciLZYHhNCz7cxDLoakpKqNAY9JpG1ppLKikJ0xQhnF3hTJ1ubduAk4ovRvgpr7T9SjjAVHo5iLiQ47qd4V6VSVa41aXNWZwD38FAM=
+  file: target/demo-0.0.1-SNAPSHOT.jar
   on:
-    r: release
+    repo: humbertodias/java-spring-boot-demo
