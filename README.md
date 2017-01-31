@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/humbertodias/java-spring-boot-demo.svg?branch=master)](https://travis-ci.org/humbertodias/java-spring-boot-demo)
+
+
 # SpringBoot
 
 Aplicação Web com Spring e módulos: **Data** e **Security**.
