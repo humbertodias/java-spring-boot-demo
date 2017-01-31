@@ -13,3 +13,8 @@ jdk:
 #script: "mvn package"
 maven-package:
   script: "mvn install -B"
+
+
+deploy:
+  on:
+    r: release
