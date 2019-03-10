@@ -11,6 +11,6 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: $GITHUB_TOKEN
-  file: target/demo-0.0.1-SNAPSHOT.jar
+  file: target/demo.jar
   on:
     tags: true
