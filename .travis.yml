@@ -7,10 +7,11 @@ jdk: oraclejdk8
 before_install: mvn package
 
 deploy:
-  provider: releases
-  skip_cleanup: true
-  api_key:
-    secure: $GITHUB_TOKEN
-  file: target/demo.jar
-  on:
-    tags: true
+  - provider: releases
+    file_glob: true
+    file:
+      - target/demo.jar
+    api_key: $GITHUB_TOKEN
+    skip_cleanup: true
+    on:
+      tags: true
