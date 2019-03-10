@@ -38,7 +38,7 @@ Aplicação Web com Spring e módulos: **Data** e **Security**.
 	 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
 	  '  |____| .__|_| |_|_| |_\__, | / / / /
 	 =========|_|==============|___/=/_/_/_/
-	 :: Spring Boot ::        (v1.3.4.RELEASE)
+	 :: Spring Boot ::        (v2.1.3.RELEASE)
 	
 	2016-05-12 13:59:13.867  INFO 21395 --- [           main] SpringBootMain                           : Starting SpringBootMain on spring.local with PID 21395 (/Users/humbertodias/Downloads/1/target/classes started by humbertodias in /Users/humbertodias/Downloads/1)
 	2016-05-12 13:59:13.873  INFO 21395 --- [           main] SpringBootMain                           : No active profile set, falling back to default profiles: default
