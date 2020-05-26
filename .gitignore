@@ -10,3 +10,8 @@ buildNumber.properties
 
 .idea/
 *.iml
+
+# Eclipse
+.classpath
+.settings
+.project
